@@ -25,4 +25,5 @@ public class Etudiant {
 	@Temporal(TemporalType.DATE)
 	private Date dateNaissance;
 	private int score;
+	private boolean malade;
 }
