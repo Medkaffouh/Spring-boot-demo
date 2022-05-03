@@ -55,7 +55,7 @@ public class DemoApplication implements CommandLineRunner{
 		}
 		et.setScore(888);
 		etudiantRepository.save(et);
-		etudiantRepository.deleteById(1L);
+		//etudiantRepository.deleteById(1L);
 	
 		
 		/*
